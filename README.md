@@ -1,4 +1,9 @@
-# The SDET Blueprint: Architecting Scalable Test Infrastructure
+---
+layout: default
+title: The SDET Blueprint
+---
+
+# Architecting Scalable Test Infrastructure
 
 Welcome! This space is dedicated to exploring what it takes to transition from simple script writing to engineering robust, enterprise-grade test automation frameworks. 
 

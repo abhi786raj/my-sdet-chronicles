@@ -1,4 +1,9 @@
-# Beyond Scripting: How I Stopped Hardcoding and Designed a Decoupled API Automation Framework
+---
+layout: default
+title: Beyond Scripting
+---
+
+# How I Stopped Hardcoding and Designed a Decoupled API Automation Framework
 
 Recently, I was working with a client who needed a complete overhaul of their API automation framework. When I opened their legacy repository, I found what many of us have seen before: a single test file stretching past 2,000 lines. Base URLs were hardcoded everywhere. `requests.post()` calls sat next to business assertions. Token generation logic was copy-pasted across dozens of tests.
 

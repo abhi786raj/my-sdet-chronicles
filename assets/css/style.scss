@@ -1,0 +1,102 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Minimalist Modern Dark Theme Overrides */
+body {
+  background-color: #0b0f19 !important;
+  color: #cbd5e1 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.75;
+  font-size: 16px;
+}
+
+/* Container limits to keep text highly readable and centered */
+.main-content, #main_content, .container-lg {
+  max-width: 760px !important;
+  margin: 0 auto !important;
+  padding: 2rem 1.5rem !important;
+}
+
+/* Titles and Headers */
+h1, h2, h3, h4 {
+  color: #f8fafc !important;
+  font-weight: 700 !important;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 { font-size: 2.25rem !important; line-height: 1.25; }
+h2 { font-size: 1.5rem !important; border-bottom: 1px solid #1e293b; padding-bottom: 0.5rem; }
+
+/* Interactive Elements & Hyperlinks */
+a {
+  color: #38bdf8 !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0ea5e9 !important;
+  text-decoration: underline !important;
+}
+
+/* Enterprise Code Snippets & Syntax Boxes */
+code, pre {
+  background-color: #1e293b !important;
+  color: #e2e8f0 !important;
+  border-radius: 6px !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+}
+
+code {
+  padding: 0.2rem 0.4rem !important;
+  font-size: 0.9em !important;
+}
+
+pre {
+  padding: 1rem !important;
+  overflow-x: auto !important;
+  border: 1px solid #334155 !important;
+}
+
+pre code {
+  padding: 0 !important;
+  background-color: transparent !important;
+}
+
+/* Blockquotes (The Highlights & Focus Quotes) */
+blockquote {
+  border-left: 4px solid #38bdf8 !important;
+  background-color: #111827 !important;
+  color: #94a3b8 !important;
+  padding: 1rem !important;
+  margin: 1.5rem 0 !important;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Technical Data Tables */
+table {
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #334155;
+  text-align: left;
+}
+
+th {
+  color: #f8fafc;
+  background-color: #1e293b;
+}
+
+/* Header Banner Fixes */
+header, .page-header {
+  background: #0f172a !important;
+  border-bottom: 1px solid #1e293b !important;
+  padding: 3rem 1.5rem !important;
+  text-align: center;
+}

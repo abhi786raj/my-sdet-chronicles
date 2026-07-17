@@ -1,7 +1,5 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
 title: The SDET Blueprint
 description: Real-world framework architecture redesigns from the trenches.
-
-# These two lines fix broken styles and layouts on sub-directory pages
 baseurl: "/my-sdet-chronicles"
 url: "https://abhi786raj.github.io"
