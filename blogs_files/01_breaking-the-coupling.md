@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Beyond Scripting
+permalink: /01_breaking-the-coupling.html
 ---
 
 # How I Stopped Hardcoding and Designed a Decoupled API Automation Framework

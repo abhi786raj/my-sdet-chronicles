@@ -3,3 +3,17 @@ title: The SDET Blueprint
 description: Real-world framework architecture redesigns from the trenches.
 baseurl: "/my-sdet-chronicles"
 url: "https://abhi786raj.github.io"
+
+defaults:
+  - scope:
+      path: "blogs_files"
+      type: "pages"
+    values:
+      layout: "blog"
+
+exclude:
+  - scripts/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

@@ -1,11 +1,33 @@
+<!-- Calm reading typography -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+
 <!-- Mermaid diagram support for GitHub Pages (client-side rendering) -->
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
 
   mermaid.initialize({
     startOnLoad: false,
-    theme: 'dark',
+    theme: 'base',
     securityLevel: 'loose',
+    themeVariables: {
+      darkMode: true,
+      background: '#1e2433',
+      primaryColor: '#2d3548',
+      primaryTextColor: '#ddd8d0',
+      primaryBorderColor: '#6a9e92',
+      secondaryColor: '#252b3a',
+      tertiaryColor: '#1e2433',
+      lineColor: '#6a9e92',
+      textColor: '#c8c3bb',
+      mainBkg: '#2d3548',
+      nodeBorder: '#6a9e92',
+      clusterBkg: '#252b3a',
+      titleColor: '#e8e4de',
+      edgeLabelBackground: '#2d3548',
+      fontFamily: 'DM Sans, sans-serif',
+    },
   });
 
   document.querySelectorAll('pre > code.language-mermaid').forEach((el) => {
@@ -22,7 +44,11 @@
   .mermaid {
     display: flex;
     justify-content: center;
-    margin: 1.5rem 0;
+    margin: 2rem 0;
+    padding: 1.25rem;
     overflow-x: auto;
+    background: rgba(45, 53, 72, 0.35);
+    border-radius: 12px;
+    border: 1px solid rgba(106, 158, 146, 0.15);
   }
 </style>
